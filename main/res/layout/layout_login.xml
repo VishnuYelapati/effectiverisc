@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/risk2_bgimage"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Login...!"
+        android:textSize="30sp"
+        android:textColor="#ff0000"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/risk_image"/>
+
+    <EditText
+        android:id="@+id/et_login_uname"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:hint="please enter UserId"
+        android:inputType="textEmailAddress"
+        android:textColor="#c0c0c0"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_login_pwd"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:hint="please enter Password"
+        android:inputType="textPassword"
+        android:textColor="#c0c0c0"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_login1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="20dp"
+        android:background="#c0c0c0"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/btn_register1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Register"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="130dp"
+    android:background="#c0c0c0"
+    android:textColor="#000000"/>
+    </LinearLayout>
+
+
+</LinearLayout>

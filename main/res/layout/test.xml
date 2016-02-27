@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="The Popularity and advanced functionality of mobile devices has made them attractive targets for malicious and intrusive applications(apps).Although strong security measures are in place for most mobile systems,the area where these systems often fail is reliance on the user to make decisions that impact the security of a device.As our prime example,android relies on users to understand the permissions that an app is requesting and to base the installation decision on the list of permissions.Previous research has shown that this reliance on users is ineffective,as most users do not understand or consider the permission information.we propose a solution that leverages a method to assign a risk score to each app and display a summary of that information to users.Results from four experiments are reported in which we examine the effects of introducing summary risk information and how best to convey such information to a user.Our results show that the inclusion of risk-score information has significant positive effects in the selection process and can also lead to more curiosity about security-related information."/>
+
+    <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/arrow2_image"
+    android:clickable="true"
+    android:layout_marginBottom="20dp"/>
+
+</android.support.v4.widget.NestedScrollView>
